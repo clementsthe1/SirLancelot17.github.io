@@ -11,4 +11,17 @@ $drakeoperation = "*";
 
 $drakeequation = eval('return'.$[star formation each year].$drakeoperation.$[number of those stars with planets].$drakeoperation.$[fraction of those that could potentially suport life].$drakeoperation.$fraction of those that do support life].$drakeoperation.$[fraction of those that go on to develop intelligent life ';');
 echo "$answer";
+
+
+
+    function makeTextInputField($name) {
+        $text = ucfirst($name);
+        echo "
+            <label for='{$name}'>{$text}</label>
+            <input type='text' name='{$name}' />
+        ";
+    }
+
+
+
 ?>
