@@ -16,15 +16,15 @@ echo "$answer";
 
     //prompt function
     function prompt($prompt_msg){
-        echo("<script type='text/javascript'> var answer = prompt('".$drakevar1."'); </script>");
+        echo("<script type='text/javascript'> var answer = prompt('".$prompt1"'); </script>");
 
         $answer = "<script type='text/javascript'> document.write(answer); </script>";
         return($answer);
     }
 
     //program
-    $prompt_msg = "Please enter the rate of star formation each year";
-    $drakevar1 = prompt($prompt_msg)
+    $prompt1 = "Please enter the rate of star formation each year";
+    $drakevar1 = prompt($prompt1)
     
     
     
