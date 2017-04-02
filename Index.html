@@ -1,4 +1,5 @@
 <html>
+    <body>
 <?php
 $[star formation each year]= 10
 $[number of those stars with planets] = 3
@@ -42,25 +43,25 @@ echo "$answer";
     $drakevar1= "Please the rate of star formation each year .";
     
 
-   <?php
-
     //prompt function
     function prompt($prompt_msg){
-        echo("<script type='text/javascript'> var answer = prompt('".$prompt_msg."'); </script>");
+        echo("<script type='text/javascript'> var answer = prompt('".$prompt_msg3."'); </script>");
 
         $answer = "<script type='text/javascript'> document.write(answer); </script>";
         return($answer);
     }
 
     //program
-    $prompt_msg = "please enter the fraction of those planets that could support life.";
+    $prompt_msg3= "please enter the fraction of those planets that could support life.";
     $drakevar3 = prompt($prompt_msg);
+
+
 
     
 
 ?>
-    
-
+ 
+    </body>
 
 </html>
 
