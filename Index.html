@@ -16,7 +16,7 @@ echo "$answer";
 
     //prompt function
     function prompt($prompt_msg){
-        echo("<script type='text/javascript'> var answer = prompt('".$prompt_msg."'); </script>");
+        echo("<script type='text/javascript'> var answer = prompt('".$drakevar1."'); </script>");
 
         $answer = "<script type='text/javascript'> document.write(answer); </script>";
         return($answer);
@@ -32,15 +32,15 @@ echo "$answer";
 
     //prompt function
     function prompt($prompt_msg){
-        echo("<script type='text/javascript'> var answer = prompt('".$prompt_msg."'); </script>");
+        echo("<script type='text/javascript'> var answer = prompt('".$drakevar2."'); </script>");
 
         $answer = "<script type='text/javascript'> document.write(answer); </script>";
         return($answer);
     }
 
     //program
-    $prompt_msg = "Please the rate of star formation each year .";
-    $drakevar2 = prompt($prompt_msg);
+    $drakevar1= "Please the rate of star formation each year .";
+    
 
    <?php
 
