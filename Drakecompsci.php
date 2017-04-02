@@ -14,5 +14,21 @@ $answer = eval('return'.$[star formation each year].$drakeoperation.$[number of 
 echo "$answer";
 
 
+    //prompt function
+    function prompt($prompt_msg){
+        echo("<script type='text/javascript'> var answer = prompt('".$prompt_msg."'); </script>");
+
+        $answer = "<script type='text/javascript'> document.write(answer); </script>";
+        return($answer);
+    }
+
+    //program
+    $prompt_msg = "Please enter the rate of star formation each year";
+    $drakevar1 = prompt($prompt_msg)
+    
+    $prompt_msg = "please enter the number of those stars with planets"
 
 ?>
+
+
+
